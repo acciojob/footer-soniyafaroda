@@ -67,6 +67,7 @@
   margin-right: 10px;
   cursor: pointer;
   transition: transform 0.3s;
+	 display: flex;
 }
 
 .media-icons:hover 
