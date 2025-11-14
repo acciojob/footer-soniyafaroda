@@ -6,6 +6,13 @@
   margin-top: 30px;
   font-family: Arial, sans-serif;
 }
+.company{
+	display: flex;
+     justify-content: space-between; 
+     align-items: center;
+     padding: 10px 20px;
+	
+}
 
 .footer-container {
   display: flex;
@@ -68,21 +75,21 @@
 }
 
 .social-container 
-{
-  margin-top: 10px;
+{      display: flex;
+     justify-content: right;
+ align-items: right;
 }
 
 /* Bottom */
 .footer-bottom 
-{
-  color: #bbb;
-  font-size: 14px;
-  background-color:#616161;
-	width:100%;
-
-
-	
-	
+{    display: flex;
+     justify-content: space-between;   /* left goes left, right goes right */
+     align-items: center;
+     padding: 10px 20px;
+     color: #bbb;
+    font-size: 14px;
+    background-color:#616161;
+	widht:100%;
 }
 
 /* Responsive */
