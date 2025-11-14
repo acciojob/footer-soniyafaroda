@@ -54,6 +54,9 @@
   color: #bbb;
   transition: 0.3s;
 }
+.link-boxes{
+	display: flex;
+}
 
 .footer-section ul li a:hover
 {
